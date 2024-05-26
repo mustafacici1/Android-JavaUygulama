@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="stepCountTextView" type="id" />
+    <item name="distanceTextView" type="id" />
+    <item name="pauseButton" type="id" />
+    <item name="stepCountTargetTextView" type="id" />
+    <item name="progressBar" type="id" />
+</resources>

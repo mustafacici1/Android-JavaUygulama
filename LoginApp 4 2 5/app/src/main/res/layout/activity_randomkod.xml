@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomKodActivity"
+    android:background="@drawable/custom_background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_above="@+id/randomKodTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/siyah_logo" />
+
+    <ImageView
+        android:id="@+id/randomKodTextView"
+        android:layout_width="269dp"
+        android:layout_height="224dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/qrcode"
+
+        />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/randomKodTextView"
+        android:layout_marginTop="84dp"
+        android:text="QR KODU OKUTARAK YEMEKHANEYE GİREBİLİRSİNİZ"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

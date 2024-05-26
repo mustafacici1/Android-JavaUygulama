@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custom_background"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soru"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/optionRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/option1RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seçenek 1"
+            android:textSize="18sp"
+            android:button="@drawable/custom_radio_button"
+            android:padding="16dp"/>
+
+        <RadioButton
+            android:id="@+id/option2RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seçenek 2"
+            android:textSize="18sp"
+            android:button="@drawable/custom_radio_button"
+            android:padding="16dp"/>
+
+        <RadioButton
+            android:id="@+id/option3RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seçenek 3"
+            android:textSize="18sp"
+            android:button="@drawable/custom_radio_button"
+            android:padding="16dp"/>
+
+        <RadioButton
+            android:id="@+id/option4RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seçenek 4"
+            android:textSize="18sp"
+            android:button="@drawable/custom_radio_button"
+            android:padding="16dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button"
+
+        android:text="Cevapla"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+
+</LinearLayout>
